@@ -1,0 +1,935 @@
+
+ /* start style navbar */
+.bg-gradient {
+  background: linear-gradient(135deg, #c657ae, #0e69c4);
+}
+
+.navbar {
+  padding: 10px;
+  position: relative;
+  z-index: 10;
+}
+
+.navbar-nav .nav-link {
+  color: #fff;
+  margin-right: 20px;
+  transition: color 0.1s ease, transform 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+  transform: translateY(-11px);
+}
+
+.btn-outline-light {
+  border: 6px solid #ffffff;
+  color: #ffffff;
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-outline-light:hover {
+  background-color: #36a852;
+  color: #e5e8ec;
+}
+
+.text-center h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+}
+
+.text-white {
+  color: #fff;
+}
+/* end style navbar */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* start style header */
+.all-header {
+  background: linear-gradient(90deg, #ffffff, #ece9e3); 
+
+  padding: 20px 0;
+  color: rgb(21, 85, 159); 
+ 
+}
+.header-image img {
+  box-shadow: 0 10px 30px rgba(128, 0, 128, 0.8); /* Purple shadow */
+  border-radius: 10px; /* Optional rounded corners */
+  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out; /* Smooth hover effect */
+}
+
+.header-image img:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+  box-shadow: 0 15px 40px rgba(128, 0, 128, 1); /* Enhance shadow on hover */
+}
+
+.welcome-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); 
+}
+
+.icon {
+  margin-left: 10px;
+  color: rgb(58, 58, 154); 
+  transition: transform 0.3s;  
+}
+
+.icon:hover {
+  transform: scale(1.1);  
+}
+
+.carousel-caption {
+  background: rgba(255, 255, 255, 0.7);  
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.shop-now {
+  font-weight: bold;
+  color: rgb(7, 8, 8); 
+  transition: color 0.3s;  
+}
+
+.shop-now:hover {
+  color: #2ba257; 
+}
+
+.countdown {
+  font-size: 1.5rem;
+  color: #000000 ;  
+}
+
+.promo-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #000000;  
+}
+
+.promo-video-element {
+  border: 2px solid #fdfdfd;  
+  border-radius: 5px;
+}
+
+.pointing-hand {
+  font-size: 2rem;
+  color: #000000;  
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);  
+  }
+  50% {
+    transform: translateY(-10px);  
+  }
+}
+
+
+.time-box {
+  font-weight: bold;
+  margin: 0 5px;
+  color:#ce1a1a ; 
+}
+
+.animated-bell {
+  animation: shake 0.2s infinite;  
+}
+
+@keyframes shake {
+  0% { transform: translate(0); }
+  25% { transform: translate(-3px); }
+  50% { transform: translate(3px); }
+  75% { transform: translate(-3px); }
+  100% { transform: translate(0); }
+}
+
+.sale-title {
+  font-size: 4rem;  
+  font-family: 'Cursive', sans-serif;  
+  color: #108a3d; 
+  margin: 10px 0;  
+}
+
+.happy-icon {
+  color: #ffc107;  
+  margin-left: 10px; 
+}
+
+.discount-icon {
+  color: #f44336;  
+  margin-left: 10px;  
+}
+
+.all-header {
+  padding-top: 110px;  
+}
+
+@media (max-width: 768px) {
+  .responsive-image {
+    height: 300px;  
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .responsive-image {
+    height: 400px; 
+  }
+}
+
+/* end style header */
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+/*  start style allhome */
+.strikethrough {
+  text-decoration: line-through;
+  color: red;
+}
+  
+.shadow-box {
+  box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.2);  
+  border-radius: 1px;  
+  transition: transform 0.1s;  
+  padding: 10px;  
+  margin: 10px; 
+}
+
+.shadow-box:hover {
+  transform: scale(1.05); 
+}
+ 
+ .page-background {
+  background: linear-gradient(90deg, #ffffff, #ece9e3); 
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.product-card {
+  background-color: white; 
+  border-radius: 10px; 
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+  transition: transform 0.3s; 
+}
+
+.product-card:hover {
+  transform: scale(1.05); 
+}
+
+/* end style allhome */
+
+/* ////////////////////////////////////////////////////////////// */
+/* start style allcart */
+
+.cart-title {
+  padding-top: 100px;  
+}
+.cart-title {
+  margin: 20px 0;
+  color: #333;
+  font-weight: bold;
+  text-align: center;
+}
+.table-dark {
+  background-color: #333;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.table-dark th,
+.table-dark td {
+  padding: 15px;
+  text-align: center;
+}
+
+.table-dark img {
+  border-radius: 5px;
+}
+
+.btn {
+  margin: 5px;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+}
+
+.btn-success {
+  background-color: #28a745;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.discount-code {
+  font-weight: bold;
+}
+
+.shipping-cost,
+.leave-review {
+  font-weight: bold;
+}
+
+.shipping-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.estimated-delivery {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.payment-options {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.payment-options img {
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.payment-options:hover {
+  transform: scale(1.05);
+}
+.payment-option-circle {
+  display: inline-block;
+  border-radius: 50%;
+  background-color: green;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  color: white;
+  cursor: pointer;
+}
+.payment-form {
+  margin-top: 20px;
+  padding: 20px;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.payment-form h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.payment-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 10px solid #ccc;
+}
+
+.payment-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-form button:hover {
+  background-color: #0056b3;
+}
+
+ /* genralll style */
+.mb-3 {
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mx-2 {
+  margin: 0 10px;
+}
+
+/* end style allcart */
+
+
+ /* ////////////////////////////////////////////////FASHION */
+ .responsive-image {
+  width: 100%;  
+  height: 900px; 
+  object-fit: cover;  
+}
+
+@media (max-width: 1024px) {
+  .responsive-image {
+    height: 700px;  
+  }
+}
+
+@media (max-width: 768px) {
+  .responsive-image {
+    height: 500px;  
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-image {
+    height: 300px;  
+  }
+}
+/*////////////////////////////////////////////////////////////////petcare */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;  
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40;  
+}
+
+.navbar-brand, .nav-link {
+  color: #ffffff !important;  
+}
+
+/* Button Styles */
+.menu-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  color: #343a40; 
+  background-color: #ffffff; 
+  transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+  background-color: #e0e0e0; 
+}
+
+/* Card Styles */
+.card {
+  border: none;  
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+.card img {
+  border-radius: 10px 10px 0 0;  
+}
+
+/* Comment Section */
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section h5 {
+  margin-bottom: 10px;
+}
+
+.comments-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comments-section li {
+  padding: 10px;
+  background-color: #ffffff;  
+  border: 1px solid #dee2e6;  
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.comments-section li button {
+  margin-left: 10px;
+}
+
+/*///////////////////////////////////////////////////////////////////////////babycare */
+/* Animation keyframes for a gentle shaking effect */
+@keyframes gentleShake {
+  0% {
+      transform: translate(0);  
+  }
+  25% {
+      transform: translate(-2px, 0);  
+  }
+  50% {
+      transform: translate(2px, 0);  
+  }
+  75% {
+      transform: translate(-2px, 0);  
+  }
+  100% {
+      transform: translate(0); 
+  }
+}
+
+/* Title style */
+.title {
+  text-align: center;
+  margin: 40px 0;
+  font-weight: bold;
+  font-size: 2rem;
+  color: transparent;
+  background: linear-gradient(90deg, #6a5acd, #ff69b4);
+  -webkit-background-clip: text;
+  background-clip: text;
+  margin-top: 0; 
+  margin-bottom: 8;
+  animation: gentleShake 1s infinite; 
+}
+
+/*///////////////////////////////////////////////////////////////// Footer Styles */
+.footer {
+  background-color: #343a40;  
+  color: #ffffff;  
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .menu-button {
+      width: 100%;  
+  }
+
+  .card {
+      margin-bottom: 20px; 
+  }
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.comments-section li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.menu-button {
+  border-radius: 5px;
+}
+
+button {
+  margin-top: 10px;
+}
+/* ///////////////////////////////////////////////////////////////// login */
+.auth-container {
+  margin-top: 150px;  /* زيادة المسافة بين الفورم والنافبار */
+  margin-bottom: 50px;  /* زيادة المسافة بين الفورم والنافبار */
+  padding: 30px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* تنسيق روابط "Don't have an account? Sign up" و "Forgot your password?" */
+.extra-links {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* تنسيق روابط إضافية بين النماذج */
+.extra-links a {
+  font-size: 1rem;
+  color: #0056b3;
+  cursor: pointer;
+  text-decoration: none;
+  margin: 0 10px; /* إضافة مسافة بين الروابط */
+}
+
+.extra-links a:hover {
+  text-decoration: underline;
+}
+
+/* إزالة الخطوط بين الحقول */
+.input-container {
+  margin-bottom: 20px; /* إزالة الخطوط بين الحقول */
+}
+
+/* التأثيرات على الأزرار والشكل العام */
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #0056b3;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #004080;
+  transform: translateY(-2px);
+}
+
+/* تحسين تنسيق الروابط بين صفحات التسجيل والدخول */
+.register-link, .forgot-password-link {
+  font-size: 0.9rem;
+  color: #0056b3;
+  text-decoration: none;
+}
+
+.register-link:hover, .forgot-password-link:hover {
+  text-decoration: underline;
+}
+
+
+  
+/* حركة التحريك الأفقي المزدوج (Bounce-in from the left) */
+@keyframes bounceInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-300px) scale(0.5); /* بدء من اليسار */
+  }
+  60% {
+    opacity: 1;
+    transform: translateX(30px) scale(1.05); /* مرونة الحركة */
+  }
+  80% {
+    transform: translateX(-10px) scale(0.95); /* عكس الاتجاه قليلاً */
+  }
+  100% {
+    transform: translateX(0) scale(1); /* الوصول للوضع الطبيعي */
+  }
+}
+
+/* تطبيق الحركة على النموذج */
+.animated-bounce-form {
+  animation: bounceInLeft 1.5s ease-out; /* زمن الحركة وطريقة تسريعها */
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2); /* تأثير الظل */
+  padding: 30px;
+  border-radius: 10px; /* زوايا دائرية */
+  background-color: #fff; /* خلفية بيضاء */
+  transition: transform 0.2s; /* تأثير عند المرور فوق النموذج */
+}
+
+/* حركة خفيفة عند المرور بالفأرة */
+.animated-bounce-form:hover {
+  transform: scale(1.02); /* تكبير طفيف عند المرور */
+}
+
+/* تعديلات على المدخلات */
+.input-container {
+  margin-bottom: 30px;
+}
+
+.login-container {
+  padding: 200px 90px;
+  text-align: center;
+}
+
+/* ضبط حجم الخط للعناوين */
+h1 {
+  font-size: 2rem; /* حجم أكبر للعنوان الرئيسي */
+  color: #0b0b0b; /* لون أغمق للعنوان */
+  font-weight: bold; /* جعل الخط عريض */
+  margin-bottom: 30px; /* مسافة أسفل العنوان */
+  letter-spacing: 1.5px; /* زيادة المسافة بين الحروف */
+ 
+  
+}
+
+/* ضبط النصوص الصغيرة */
+label {
+  font-size: 2.1rem; /* تكبير النص داخل المدخلات */
+  font-weight: 500; /* زيادة سمك النص قليلاً */
+  color: #000000; /* لون رمادي غامق */
+  font-family: 'Arial', sans-serif; /* تغيير نوع الخط */
+  
+}
+
+/* تعديل الحقول */
+input {
+  font-size: 1rem; /* حجم خط مناسب للمدخلات */
+  padding: 10px; /* حشو داخلي أكبر للمدخلات */
+  border-radius: 8px; /* زوايا دائرية للحقل */
+  border: 1px solid #ced4da; /* لون الحدود */
+  font-family: 'Arial', sans-serif; /* تغيير نوع الخط */
+}
+
+/* تصميم الزر */
+button {
+  font-size: 1.1rem; /* تكبير حجم خط الزر */
+  font-weight: 600; /* جعل الخط في الزر أكثر سمكًا */
+  padding: 12px 20px; /* حشو الزر الداخلي */
+  background-color: #007bff; /* لون أزرق */
+  color: white; /* لون النص أبيض */
+  border: none; /* إزالة الحدود */
+  border-radius: 8px; /* زوايا دائرية للزر */
+  transition: background-color 0.3s; /* حركة عند تغيير اللون */
+}
+
+button:hover {
+  background-color: #0003b3; /* تغيير اللون عند المرور */
+}
+.extra-links {
+  margin-top: 20px;
+}
+
+
+.register-link, .forgot-password-link {
+  font-size: 0.9rem;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link:hover, .forgot-password-link:hover {
+  text-decoration: underline;
+}
+.security-text {
+  font-size: 22px;
+  color: #6c757d;
+  margin-top: 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.social-login {
+  margin-top: 30px;
+}
+
+.social-btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 22px;
+  font-weight: bold;
+  border: none;
+}
+
+.social-login {
+  margin-top: 30px;
+  text-align: center; /* لتوسيط الأزرار */
+}
+
+.social-btn {
+  display: inline-block;
+  width: 140px; /* تقليل عرض الزر */
+  padding: 8px 10px; /* تقليل الحشو داخل الزر */
+  border-radius: 200px;
+  font-size: 11px; /* تصغير حجم النص داخل الزر */
+  font-weight: bold;
+  border: none;
+  margin: 0 10px; /* إضافة مسافة بين الأزرار */
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+  color: white;
+}
+
+.google-btn {
+  background-color: #db4437;
+  color: white;
+}
+
+.social-btn:hover {
+  opacity: 0.9;
+}
+.login-container {
+  padding-top: 120px;  /* حشو من الأعلى */
+  padding-bottom: 0;  /* حشو من الأسفل */
+}
+
+.input-container .form-label {
+  margin-right: -70px; /* تقليل المسافة بين الليبل وحقل الإدخال */
+  font-size: 18px;
+}
+
+.input-container .form-control {
+  margin-left: -4px; /* تقليل المسافة بين حقل الإدخال والليبل */
+}
+
+
+
+/* ///////////////// mensclothing*/
+.animated-img {
+  animation: moveImages 15s ease-in-out infinite;  
+}
+
+@keyframes moveImages {
+  0% {
+      transform: translateX(0);  
+  }
+  50% {
+      transform: translateX(-50%);  
+  }
+  100% {
+      transform: translateX(0);  
+  }
+}
+/* /////////////////////////////////////////////////////////////////////////////////women */
+@keyframes slideUpDown {
+  0% {
+      transform: translateY(0); 
+  }
+  50% {
+      transform: translateY(-10px);  
+  }
+  100% {
+      transform: translateY(0);  
+  }
+}
+
+.slideUpDown {
+  animation: slideUpDown 1s ease-in-out infinite; 
+}
+@keyframes slideLeftRight {
+  0% {
+      transform: translateX(0);
+  }
+  50% {
+      transform: translateX(10px);  
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+.banner-animation {
+  animation: slideLeftRight 1.5s ease-in-out infinite;  
+}
+
+.banner-animation img {
+  width: 100%;
+  height: auto;  
+}
+
+/*/////////////////////////////////////////////////////////////////////////wishlist */
+.animated-card {
+  animation: fadeIn 0.5s ease forwards;
+  opacity: 0;  
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;  
+      transform: translateY(20px);  
+  }
+  to {
+      opacity: 1; 
+      transform: translateY(0);  
+  }
+}
+.remove-button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.remove-button:hover {
+  background-color: #ff4d4d;  
+  transform: scale(1.05);  
+}
+ 
+.card {
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);  
+}
+
+h2 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  transition: color 0.3s ease;
+}
+
+.card-title:hover {
+  color: #ff4500;  
+}
+
+/* /////////////////////////////////////////////////////////////////////////Allfashion */
+/* Allfashion.css */
+.category-card {
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s;
+  color: #000;
+}
+
+.category-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(14, 2, 121, 0.727);
+}
+ 
+.comment-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #ffffff60;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s;
+}
+
+.comment-card:hover {
+  box-shadow: 0 4px 10px rgba(208, 0, 146, 0.773);
+}
+
+ 
+h3 {
+  margin-top: 2px;
+  font-size: 20px;
+  color: #000000;
+  font-size:cursive ;
+}
+.btn-danger {
+  margin-top: 10px;
+}
+.category-card h3,
+.category-card p,
+.comment-card blockquote,
+.comment-card p {
+  color: #000;  
+}
+
+
+ 

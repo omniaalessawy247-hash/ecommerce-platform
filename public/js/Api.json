@@ -1,0 +1,206 @@
+  [
+    {
+        "id": 1,
+        "title": "Men's Casual Shirt",
+        "category": "Fashion",
+        "image": "/images/Men's Casual Shirt.webp",
+        "old_price": 180,
+        "new_price": 100,
+        "rating": 4.5
+    },
+    {
+        "id": 2,
+        "title": "Women's Summer Dress",
+        "category": "Fashion",
+        "image": "/images/Women's Summer Dress.jpeg",
+        "old_price": 300,
+        "new_price": 180,
+        "rating": 4.8
+    },
+    {
+        "id": 3,
+        "title": "Nike Running Shoes",
+        "category": "Fashion",
+        "image": "/images/Nike Running Shoes.jpeg",
+        "old_price": 120,
+        "new_price": 90,
+        "rating": 4.7
+    },
+    {
+        "id": 4,
+        "title": "Foundation Makeup",
+        "category": "Makeup",
+        "image": "/images/Foundation Makeup.webp",
+        "old_price": 40,
+        "new_price": 30,
+        "rating": 4.3
+    },
+    {
+        "id": 5,
+        "title": "Lipstick - Red",
+        "category": "Makeup",
+        "image": "/images/Lipstick - Red.webp",
+        "old_price": 20,
+        "new_price": 15,
+        "rating": 4.6
+    },
+    {
+        "id": 6,
+        "title": "Eyeshadow Palette",
+        "category": "Makeup",
+        "image": "/images/Eyeshadow Palette.jpeg",
+        "old_price": 35,
+        "new_price": 25,
+        "rating": 4.8
+    },
+    {
+        "id": 7,
+        "title": "Chanel No. 5 Perfume",
+        "category": "Perfume",
+        "image": "/images/Chanel No. 5 Perfume.webp",
+        "old_price": 220,
+        "new_price": 190,
+        "rating": 4.9
+    },
+    {
+        "id": 8,
+        "title": "Gucci Guilty Perfume",
+        "category": "Perfume",
+        "image": "/images/Gucci Guilty Perfume.jpg",
+        "old_price": 180,
+        "new_price": 140,
+        "rating": 4.7
+    },
+    {
+        "id": 9,
+        "title": "Dior Sauvage Perfume",
+        "category": "Perfume",
+        "image": "/images/Dior Sauvage Perfume.jpeg",
+        "old_price": 170,
+        "new_price": 130,
+        "rating": 4.9
+    },
+    {
+        "id": 10,
+        "title": "Organic Avocados",
+        "category": "Supermarket",
+        "image": "/images/Organic Avocados.webp",
+        "old_price": 10,
+        "new_price": 7,
+        "rating": 4.8
+    },
+    {
+        "id": 11,
+        "title": "Whole Wheat Bread",
+        "category": "Supermarket",
+        "image": "/images/Whole Wheat Bread.jpeg",
+        "old_price": 5,
+        "new_price": 3,
+        "rating": 4.5
+    },
+    {
+        "id": 12,
+        "title": "Almond Milk",
+        "category": "Supermarket",
+        "image": "/images/Almond Milk.webp",
+        "old_price": 8,
+        "new_price": 6,
+        "rating": 4.6
+    },
+    {
+        "id": 13,
+        "title": "The Great Gatsby",
+        "category": "Books",
+        "image": "/images/The Great Gatsby.jpeg",
+        "old_price": 15,
+        "new_price": 10,
+        "rating": 4.9
+    },
+    {
+        "id": 14,
+        "title": "To Kill a Mockingbird",
+        "category": "Books",
+        "image": "/images/To Kill a Mockingbird.webp",
+        "old_price": 18,
+        "new_price": 12,
+        "rating": 4.8
+    },
+    {
+        "id": 15,
+        "title": "1984 by George Orwell",
+        "category": "Books",
+        "image": "/images/1984 by George Orwell.jpeg",
+        "old_price": 20,
+        "new_price": 15,
+        "rating": 4.7
+    },
+    {
+        "id": 16,
+        "title": "Dog Food - Chicken Flavor",
+        "category": "Pet Care Products",
+        "image": "/images/Dog Food - Chicken Flavor.jpeg",
+        "old_price": 30,
+        "new_price": 25,
+        "rating": 4.2
+    },
+    {
+        "id": 17,
+        "title": "Cat Litter",
+        "category": "Pet Care Products",
+        "image": "/images/Cat Litter.jpeg",
+        "old_price": 25,
+        "new_price": 20,
+        "rating": 4.3
+    },
+    {
+        "id": 18,
+        "title": "Bird Seed Mix",
+        "category": "Pet Care Products",
+        "image": "/images/Bird Seed Mix.webp",
+        "old_price": 15,
+        "new_price": 12,
+        "rating": 4.4
+    },
+    {
+        "id": 19,
+        "title": "Women's Winter Coat",
+        "category": "Fashion",
+        "image": " /images/Women's Winter Coat.webp",
+        "old_price": 200,
+        "new_price": 160,
+        "rating": 4.8
+    },
+    
+        { "id": 1,"title": "Eco-Friendly Baby Shampoo", "price": 12, "old_price": 15, "new_price": 12, "category": "Baby Care", "rating": 4.8, "image": "images/babycare/Eco-Friendly Baby Shampoo.jpg" },
+        { "id": 2,"title": "Soft Baby Blanket", "price": 20, "old_price": 25, "new_price": 20, "category": "Baby Care", "rating": 4.6, "image": "images/babycare/Soft Baby Blanket.jpg" },
+        { "id": 3,"title": "Organic Baby Lotion", "price": 10, "old_price": 12, "new_price": 10, "category": "Baby Care", "rating": 4.5, "image": "images/babycare/Organic Baby Lotion.jpg" },
+        { "id": 4,"title": "Hypoallergenic Baby Wipes", "price": 5, "old_price": 7, "new_price": 5, "category": "Baby Care", "rating": 4.7, "image": "images/babycare/Hypoallergenic Baby Wipes.jpg" },
+        { "id": 5,"title": "Bamboo Diapers", "price": 15, "old_price": 20, "new_price": 15, "category": "Baby Care", "rating": 4.9, "image": "images/babycare/Bamboo Diapers.jpg" },
+        { "id": 6,"title": "Baby Sunscreen", "price": 14, "old_price": 16, "new_price": 14, "category": "Baby Care", "rating": 4.6, "image": "images/babycare/Baby Sunscreen.jpg" },
+        { "id": 7,"title": "Gentle Baby Body Wash", "price": 11, "old_price": 13, "new_price": 11, "category": "Baby Care", "rating": 4.7, "image": "images/babycare/Gentle Baby Body Wash.jpg" },
+        { "id": 8,"title": "Soft Baby Pajamas", "price": 18, "old_price": 22, "new_price": 18, "category": "Baby Care", "rating": 4.8, "image": "images/babycare/Soft Baby Pajamas.jpg" },
+        { "id": 9,"title": "Breathable Baby Mattress", "price": 150, "old_price": 180, "new_price": 150, "category": "Baby Care", "rating": 4.9, "image": "images/babycare/Breathable Baby Mattress.jpg" },
+        { "id": 10,"title": "Cotton Baby Diapers", "price": 20, "old_price": 25, "new_price": 20, "category": "Baby Care", "rating": 4.8, "image": "images/babycare/Cotton Baby Diapers.jpg" },
+        { "id": 31, "title": "The Hunger Games", "price": 13, "old_price": 15, "new_price": 13, "category": "Books", "rating": 4.6, "image": "images/books/The Hunger Games.jpg" },
+        { "id": 32, "title": "The Fault in Our Stars", "price": 1, "old_price": 3, "new_price": 1, "category": "Books", "rating": 4.9, "image": "images/books/The Fault in Our Stars.jpg" },
+        { "id": 33, "title": "1984", "price": 15, "old_price": 20, "new_price": 15, "category": "Books", "rating": 4.8, "image": "images/books/1984.jpg" },
+        { "id": 34, "title": "Brave New World", "price": 20, "old_price": 25, "new_price": 20, "category": "Books", "rating": 4.7, "image": "images/books/Brave New World.jpg" },
+        { "id": 35, "title": "Pride and Prejudice", "price": 18, "old_price": 22, "new_price": 18, "category": "Books", "rating": 4.6, "image": "images/books/Pride and Prejudice.jpg" },
+        { "id": 36, "title": "Moby Dick", "price": 25, "old_price": 30, "new_price": 25, "category": "Books", "rating": 4.5, "image": "images/books/Moby Dick.jpg" },
+        { "id": 37, "title": "The Great Gatsby", "price": 22, "old_price": 27, "new_price": 22, "category": "Books", "rating": 4.9, "image": "images/books/The Great Gatsby.jpg" },
+        { "id": 38, "title": "The Catcher in the Rye", "price": 18, "old_price": 21, "new_price": 18, "category": "Books", "rating": 4.4, "image": "images/books/The Catcher in the Rye.jpg" },
+        { "id": 39, "title": "The Chronicles of Narnia", "price": 30, "old_price": 35, "new_price": 30, "category": "Books", "rating": 4.8, "image": "images/books/The Chronicles of Narnia.jpg" },
+        { "id": 40, "title": "To Kill a Mockingbird", "price": 20, "old_price": 25, "new_price": 20, "category": "Books", "rating": 4.9, "image": "images/books/To Kill a Mockingbird.jpg" },
+        { "id": 41, "title": "The Kite Runner", "price": 22, "old_price": 27, "new_price": 22, "category": "Books", "rating": 4.7, "image": "images/books/The Kite Runner.jpg" },
+        { "id": 11, "title": "Dog Collar", "price": 12, "old_price": 15, "new_price": 12, "category": "Pet Care", "rating": 4.6, "image": "images/petcare/Dog Collar.jpg" },
+        { "id": 12, "title": "Cat Food", "price": 25, "old_price": 30, "new_price": 25, "category": "Pet Care", "rating": 4.5, "image": "images/petcare/Cat Food.jpg" },
+        { "id": 13, "title": "Dog Treats", "price": 8, "old_price": 10, "new_price": 8, "category": "Pet Care", "rating": 4.7, "image": "images/petcare/Dog Treats.jpg" },
+        { "id": 14, "title": "Small Animal Bedding", "price": 15, "old_price": 18, "new_price": 15, "category": "Pet Care", "rating": 4.5, "image": "images/petcare/Small Animal Bedding.jpg" },
+        { "id": 15, "title": "Fish Food Flakes", "price": 10, "old_price": 12, "new_price": 10, "category": "Pet Care", "rating": 4.7, "image": "images/petcare/Fish Food Flakes.jpg" },
+        { "id": 16, "title": "Dog Shampoo", "price": 15, "old_price": 18, "new_price": 15, "category": "Pet Care", "rating": 4.7, "image": "images/petcare/Dog Shampoo.jpg" },
+        { "id": 17, "title": "Bird Perch", "price": 8, "old_price": 10, "new_price": 8, "category": "Pet Care", "rating": 4.5, "image": "images/petcare/Bird Perch.jpg" },
+        { "id": 18, "title": "Cat Scratching Post", "price": 35, "old_price": 40, "new_price": 35, "category": "Pet Care", "rating": 4.9, "image": "images/petcare/Cat Scratching Post.jpg" },
+        { "id": 19, "title": "Dog Bed", "price": 40, "old_price": 45, "new_price": 40, "category": "Pet Care", "rating": 4.8, "image": "images/petcare/Dog Bed.jpg" },
+        { "id": 20, "title": "Fish Tank Decor", "price": 25, "old_price": 30, "new_price": 25, "category": "Pet Care", "rating": 4.6, "image": "images/petcare/Fish Tank Decor.jpg" }
+    ]
+    
