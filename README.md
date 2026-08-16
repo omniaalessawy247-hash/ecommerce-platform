@@ -33,8 +33,8 @@ Smooth navigation using React Router
 Fully responsive across all devices
 Mobile-first layout approach
 Optimized for performance and usability
-🖼️ Preview
-<p align="center"> <img src="https://github.com/user-attachments/assets/2701998b-8ef3-4943-adbb-ebf20f8bfe18" width="75%" /> </p> <p align="center"> <img src="https://github.com/user-attachments/assets/b201785b-68a9-4667-9bcd-c5b7eed875cb" width="48%" /> <img src="https://github.com/user-attachments/assets/b1c3a5ee-f986-4aa8-969b-5a4062ec17d5" width="48%" /> </p> <p align="center"> <img src="https://github.com/user-attachments/assets/5305d190-ba2e-4e8d-8012-48fb054a4302" width="48%" /> <img src="https://github.com/user-attachments/assets/ddd34963-477d-4216-a9f1-087e98a54879" width="48%" /> </p> <p align="center"> <img src="https://github.com/user-attachments/assets/e391603d-a764-4917-96f9-7a473a18df7d" width="48%" /> <img src="https://github.com/user-attachments/assets/524f2e8f-b123-42be-84c4-486ce020133a" width="48%" /> </p>
+🖼️ Preview 
+</p> <p align="center"> <img src="https://github.com/user-attachments/assets/b201785b-68a9-4667-9bcd-c5b7eed875cb" width="48%" /> <img src="https://github.com/user-attachments/assets/b1c3a5ee-f986-4aa8-969b-5a4062ec17d5" width="48%" /> </p> <p align="center"> <img src="https://github.com/user-attachments/assets/5305d190-ba2e-4e8d-8012-48fb054a4302" width="48%" /> <img src="https://github.com/user-attachments/assets/ddd34963-477d-4216-a9f1-087e98a54879" width="48%" /> </p> <p align="center"> <img src="https://github.com/user-attachments/assets/e391603d-a764-4917-96f9-7a473a18df7d" width="48%" /> <img src="https://github.com/user-attachments/assets/524f2e8f-b123-42be-84c4-486ce020133a" width="48%" /> </p>
 🏗️ Architecture
 Component-based architecture
 Separation of concerns (UI / logic)
