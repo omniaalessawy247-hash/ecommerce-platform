@@ -1,6 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
 import Allnavbar from './Home/Allnavbar';
-import Allfooter from './Home/Allfooter';
 import { Outlet } from 'react-router-dom';
 
 function App() {
@@ -28,7 +27,6 @@ function App() {
       <div style={{ paddingTop: `${navHeight}px` }}>
         <Outlet />
       </div>
-      <Allfooter />
     </>
   );
 }

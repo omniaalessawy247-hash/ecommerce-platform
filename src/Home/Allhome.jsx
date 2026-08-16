@@ -3,6 +3,7 @@ import { Container, Row, Col, Form } from "react-bootstrap";
 import { useCart } from "react-use-cart";
 import { FaShippingFast, FaTag } from 'react-icons/fa';
 import AllHeader from './Allheader';
+import Allfooter from './Allfooter';
 
 function Banner() {
     return (
@@ -418,6 +419,7 @@ function Allhome() {
         <>
             <AllHeader />
             <Page />
+            <Allfooter />
         </>
     );
 }
